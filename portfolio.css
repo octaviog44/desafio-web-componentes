@@ -1,0 +1,411 @@
+*body{
+    box-sizing: content-box;
+}
+body{
+    background-color: #13171C;
+    margin: 0px;
+}
+
+
+.home-principal{
+    background-color: #13171C;
+    width: 100%;
+    height: 786px;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+.contenedor-menu{
+    height: 40px;
+    width: 40px;
+
+}
+
+.header-mobile{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contenedor-menu{
+    border: solid white 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media(min-width:768px){
+    .contenedor-menu{
+        display: none;
+    }
+}
+
+.abrir-ventana{
+    width: 30px;
+}
+@media(min-width: 768px){
+    .abrir-ventana{
+        display: none;
+
+    }
+}
+
+.header-escritorio{
+    display: flex;
+}
+.portafolio__header{
+    display: none;
+}
+
+@media(min-width:768px){
+    .portafolio__header{
+        display: block;
+        margin-left: 20px;
+        color: #ffffff;
+    }
+}
+
+.servicios__header{
+    display: none;
+    
+}
+
+@media(min-width:768px){
+    .servicios__header{
+        display: block;
+        margin-left: 20px;
+        color: #ffffff;
+    }
+}
+
+.contacto__header{
+    display: none;
+}
+
+@media(min-width:768px){
+    .contacto__header{
+        display: block;
+        margin-left: 20px;
+        color: #ffffff;
+    }
+}
+.trabajos-mobile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media(min-width:768px){
+    .trabajos-mobile{
+        
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+.mis{
+    color: #ffffff;
+    font-size: 60px;
+    margin: 20px;
+}
+
+.trabajos{
+    color: #00ADB5;
+    font-size: 60px;
+    margin: 20px;
+}
+
+.titulo__servicios {
+    position: relative;
+ }
+  
+.titulo__servicios::before {
+    content: "Mis ";
+    color: #eeeeee;
+    font-size: 42px; 
+   
+ }
+  
+.titulo__servicios::after {
+    content: "servicios";
+    color: #00ADB5; 
+    font-size: 42px; 
+  }
+
+.titulo__servicios{
+    margin: 0px;
+    padding: 80px;
+  }
+.contenedor-servicios{
+    background-color: #192130;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media(min-width:768px){
+    .contenedor-servicios{
+        min-width: 996px;
+        height: 942px;
+    }
+  }
+.contenedor-muestra{
+    width: 324px;
+    height: 481px;
+    background-color: #393E46 ;
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+  }
+
+  @media(min-width:768px){
+    .contenedor-muestra{
+        margin: 3px;
+    }
+  }
+
+  @media(min-width:768px){
+   .contenedor-general-servicios{
+    display: flex;
+    flex-direction: row;
+   }
+  }
+
+.imagen__servicios{
+    width: 265px;
+    height: 158px;
+    margin-top:20px ;
+}  
+.nombre__servicio{
+    font-size: 33px;
+    color: #eeeeee;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.primer__titulo{
+   translate: 15%;
+}
+
+.descripcion__servicio{
+    color: #ffffff;
+    opacity: 100%;
+    font-size: 17px;
+    padding: 30px;
+    margin: 0px;
+}  
+
+.segunda-muestra{
+    position: relative;
+}
+.imagen__tablet{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+.tercera-muestra{
+    position: relative;
+}
+
+.foto__izquierda{
+    position: absolute;
+    right: 120px;
+    top: 20px;
+}
+
+.foto__centro{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.foto__derecha{
+    position: absolute;
+    top: 20px;
+    left: 140px;
+}
+
+.ultimo__nombre{
+    position: absolute;
+    bottom: 200px;
+}
+
+.ultima__descripcion{
+    position: absolute;
+   bottom: 90px;
+}
+
+.footer-mobile{
+    width: 100%;
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0e0b3d;
+}
+
+@media(min-width:768px){
+   .footer-mobile{
+    height: 1200px;
+    align-items: center;
+    justify-content: flex-end;
+   }
+}
+
+.contenedor__boton__home{
+    display: flex;
+    align-items: center;
+    
+}
+.home__titulo{
+    font-size: 18px;
+    color: #ffffff;
+}
+.home__icono{
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+}
+
+.contenedor__boton__servicio{
+     display: flex;
+     align-items: center;
+}
+
+.servicios__titulo{
+     font-size: 18px;
+     color: #ffffff;
+}
+
+.servicios__icono{
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+}
+
+.contenedor__boton__contacto{
+    display: flex;
+    align-items: center;
+}
+
+.nombre__contacto{
+    font-size: 18px;
+    color: #ffffff;
+}
+.contacto__icono{
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+}
+
+.redes-sociales{
+    display: flex;
+    margin: 10%;
+}
+.logo__linkedin{
+    height: 48px;
+    width: 48px;
+}
+
+.logo__github{
+    height: 48px;
+    width: 48px;
+}
+
+.logo__x{
+    height: 48px;
+    width: 48px;
+}
+
+@media(min-width:768px){
+    .contenedor-botones{
+        display: flex;
+    }
+}
+
+.ventana-emergente{
+    width: 100%;
+    height: 704px;
+    background-color: blueviolet;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.portfolio{
+    font-size: 42px;
+}
+
+.servicios{
+    font-size: 42px;
+}
+
+.contacto{
+    font-size: 42px;
+}
+
+.boton__cerrar{
+    margin-left: 400px;
+}
+
+
+.abrir-ventana{
+    width: 30px;
+}
+@media(min-width: 768px){
+    .abrir-ventana{
+        display: none;
+
+    }
+}
+
+.header-escritorio{
+    display: flex;
+}
+.portafolio__header{
+    display: none;
+}
+
+@media(min-width:768px){
+    .portafolio__header{
+        display: block;
+        margin-left: 20px;
+        color: #ffffff;
+    }
+}
+
+.servicios__header{
+    display: none;
+    
+}
+
+@media(min-width:768px){
+    .servicios__header{
+        display: block;
+        margin-left: 20px;
+        color: #ffffff;
+    }
+}
+
+.contacto__header{
+    display: none;
+}
+
+@media(min-width:768px){
+    .contacto__header{
+        display: block;
+        margin-left: 20px;
+        color: #ffffff;
+    }
+}

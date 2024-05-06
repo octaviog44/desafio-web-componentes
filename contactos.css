@@ -1,0 +1,289 @@
+*body{
+    box-sizing: content-box;
+}
+body{
+    
+    margin: 0px;
+}
+.conteiner-contactos{
+    height: 1103px;
+    width: 100%;
+    background-color: #192130;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+@media(min-width:768px){
+    .conteiner-contactos{
+      align-items: flex-start;
+    }
+}
+.titulo__contactos{
+    font-size: 42px;
+    color: #ffffff;
+    position: absolute;
+    top: 100px;
+}
+
+.titulo__nombre{
+    font-size: 18px;
+    color: #ffffff;
+    margin-right: 35%;
+    margin-top: 250px;
+}
+@media(min-width:768px){
+    .titulo__nombre{
+        margin-left:50% ;
+    }
+}
+
+.input__nombre{
+    height: 59px;
+    width: 313px;
+    background-color: #393E46;
+    
+}
+
+@media(min-width:768px){
+    .input__nombre{
+        margin-left:50% ;
+    }
+}
+.titulo__email{
+    font-size: 18px;
+    color: #ffffff;
+    margin-right: 35%;
+}
+
+@media(min-width:768px){
+    .titulo__email{
+        margin-left:50% ;
+    }
+}
+
+.input__email{
+    height: 59px;
+    width: 313px;
+    background-color: #393E46;
+}
+@media(min-width:768px){
+    .input__email{
+        margin-left:50% ;
+    }
+}
+
+
+.titulo__mensaje{
+    font: 18px;
+    color: #ffffff;
+    margin-left: 25%;
+}
+
+.textarea__mensaje{
+   height: 280px;
+   width: 323px;
+   background-color: #393E46;
+   
+}
+
+.boton__enviar{
+    background-color: #00ADB5;
+    width: 330px;
+    height: 55px;
+    margin-top: 60px;
+    
+}
+
+@media(min-width:768px){
+    .titulo__mensaje{
+        margin-left:50% ;
+    }
+}
+
+@media(min-width:768px){
+    .boton__enviar{
+        margin-left:50% ;
+    }
+}
+
+
+@media(min-width:768px){
+    .textarea__mensaje{
+        margin-left:50% ;
+    }
+}
+
+
+.footer-mobile{
+    width: 100%;
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0F1113;
+}
+
+@media(min-width:768px){
+   .footer-mobile{
+    height: 1200px;
+    align-items: center;
+    justify-content: flex-end;
+   }
+}
+
+.contenedor__boton__home{
+    display: flex;
+    align-items: center;
+    
+}
+.home__titulo{
+    font-size: 18px;
+    color: #ffffff;
+}
+.home__icono{
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+}
+
+.contenedor__boton__servicio{
+     display: flex;
+     align-items: center;
+}
+
+.servicios__titulo{
+     font-size: 18px;
+     color: #ffffff;
+}
+
+.servicios__icono{
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+}
+
+.contenedor__boton__contacto{
+    display: flex;
+    align-items: center;
+}
+
+.nombre__contacto{
+    font-size: 18px;
+    color: #ffffff;
+}
+.contacto__icono{
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+}
+
+.redes-sociales{
+    display: flex;
+    margin: 10%;
+}
+.logo__linkedin{
+    height: 48px;
+    width: 48px;
+}
+
+.logo__github{
+    height: 48px;
+    width: 48px;
+}
+
+.logo__x{
+    height: 48px;
+    width: 48px;
+}
+
+@media(min-width:768px){
+    .contenedor-botones{
+        display: flex;
+    }
+}
+
+
+.ventana-emergente{
+    width: 100%;
+    height: 704px;
+    background-color: blueviolet;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.portfolio{
+    font-size: 42px;
+}
+
+.servicios{
+    font-size: 42px;
+}
+
+.contacto{
+    font-size: 42px;
+}
+
+.boton__cerrar{
+    margin-left: 400px;
+}
+
+
+.abrir-ventana{
+    width: 30px;
+}
+@media(min-width: 768px){
+    .abrir-ventana{
+        display: none;
+
+    }
+}
+
+.header-escritorio{
+    display: flex;
+}
+.portafolio__header{
+    display: none;
+}
+
+@media(min-width:768px){
+    .portafolio__header{
+        display: block;
+        margin-left: 20px;
+        color: #ffffff;
+    }
+}
+
+.servicios__header{
+    display: none;
+    
+}
+
+@media(min-width:768px){
+    .servicios__header{
+        display: block;
+        margin-left: 20px;
+        color: #ffffff;
+    }
+}
+
+.contacto__header{
+    display: none;
+}
+
+@media(min-width:768px){
+    .contacto__header{
+        display: block;
+        margin-left: 20px;
+        color: #ffffff;
+    }
+}
+
+l.header-mobile{
+    display: flex;
+}
